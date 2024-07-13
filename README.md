@@ -3,4 +3,4 @@
 
 - yarn install
 - yarn dev
-- yarn run test 
+
