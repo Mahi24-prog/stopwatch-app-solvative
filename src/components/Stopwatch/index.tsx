@@ -106,7 +106,7 @@ const Stopwatch = () => {
             <Button
               variant="contained"
               onClick={onStop}
-              disabled={isStop}
+              disabled={isStop || time === 0}
               color="error"
               startIcon={<Stop />}
             >
