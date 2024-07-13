@@ -39,6 +39,7 @@ const Stopwatch = () => {
 
   const onReset = () => {
     setTime(0);
+    isStop && setIsStop(false);
   };
 
   /*Hooks*/
